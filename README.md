@@ -6,6 +6,15 @@ This repository is a **public preview**. It shows progress through renders, vide
 
 > Status: experimental research, not a product. It has been tested on one Quest 3 with one PC (RTX 3080, Linux). Not affiliated with or endorsed by Meta.
 
+> [!IMPORTANT]
+> **Very early development version.** qlink is under active development. Work is focused on making the full path run reliably and on improving it step by step. Many parts are incomplete, and things change quickly.
+>
+> **Renders are updated regularly**, so this repository shows how the project progresses over time. See the [progress log](docs/PROGRESS.md).
+>
+> **Test versions and contributors:** there are no public builds yet. Later, test versions and collaboration will be offered **by invitation**. If you are interested, open a [tester interest](../../issues/new?template=tester-interest.yml) or [offer to help](../../issues/new?template=offer-help.yml) issue.
+>
+> **Ideas and feedback are welcome** through [issues](../../issues/new/choose) and [Discussions](../../discussions). See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ![Island home world](media/images/island-shore.jpg)
 
 ## Highlights

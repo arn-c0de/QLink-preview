@@ -1,0 +1,42 @@
+name: Tester interest
+description: Register interest in future test versions (by invitation).
+title: "[Tester]: "
+labels: ["tester interest", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        There are no public builds yet. Test versions will later be offered **by invitation**. Testers on different hardware help most.
+
+        Only share general hardware information. Do not post serial numbers, device identifiers, account names or logs that contain them.
+  - type: input
+    id: headset
+    attributes:
+      label: Headset
+      placeholder: e.g. Quest 3, Quest 3S
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU and driver
+      placeholder: e.g. RTX 3080, NVIDIA 580; RX 7800 XT, Mesa 25.2
+    validations:
+      required: true
+  - type: input
+    id: distro
+    attributes:
+      label: Linux distribution and kernel
+      placeholder: e.g. Ubuntu 24.04, kernel 6.17
+    validations:
+      required: true
+  - type: input
+    id: usb
+    attributes:
+      label: USB controller and cable
+      placeholder: e.g. AMD chipset USB 3.2, Link cable 5 m
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: What would you like to test or use qlink for?

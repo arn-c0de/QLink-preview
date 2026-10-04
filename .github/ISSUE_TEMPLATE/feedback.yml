@@ -1,0 +1,23 @@
+name: Feedback on renders or docs
+description: Comment on a render, video, write-up or something that looks wrong.
+title: "[Feedback]: "
+labels: ["feedback", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The images and videos here are offline renders of a very early development version. Feedback on what looks wrong, unrealistic or unclear helps decide what to improve next.
+  - type: input
+    id: subject
+    attributes:
+      label: Which render, video or document?
+      placeholder: e.g. media/images/island-water.jpg or docs/FEATURES.md
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What do you notice, and what would you expect instead?
+    validations:
+      required: true

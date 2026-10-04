@@ -1,0 +1,43 @@
+name: Offer to help
+description: Offer skills or time for future collaboration (by invitation).
+title: "[Help]: "
+labels: ["collaboration", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The source code is not public yet. Collaboration will be offered **by invitation** once the project is ready for it. This issue registers your interest; it is not a guarantee of an invitation.
+
+        Do not post private contact details, credentials or account information here. If an invitation follows, contact details are exchanged privately.
+  - type: checkboxes
+    id: skills
+    attributes:
+      label: Areas you could help with
+      options:
+        - label: Rust / systems programming
+        - label: Vulkan, rendering or shaders
+        - label: Video encoding or USB / transport
+        - label: OpenXR or VR runtimes
+        - label: 3D art, characters, textures or animation
+        - label: Sound design
+        - label: Testing on different hardware
+        - label: Documentation
+  - type: textarea
+    id: about
+    attributes:
+      label: About you
+      description: Relevant experience, projects or links you want to share publicly.
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Rough availability
+      placeholder: e.g. a few hours per week
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Project principles
+      options:
+        - label: I have read the principles in the README (clean-room, no circumvention, evidence first) and would work within them.
+          required: true

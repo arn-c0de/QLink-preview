@@ -1,0 +1,40 @@
+name: Idea or feature suggestion
+description: Suggest a feature, world, tool or improvement for qlink.
+title: "[Idea]: "
+labels: ["idea", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea. qlink is a very early development version, so ideas are collected and weighed against the [roadmap](https://github.com/arn-c0de/QLink-preview/blob/main/docs/ROADMAP.md). There is no promise that a suggestion will be built.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Streaming and headset connection
+        - Rendering and graphics
+        - Avatars, faces and animation
+        - Simulation (health, physics, vehicles, water)
+        - Worlds and content
+        - Tools and editors
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What should qlink do or have?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: Which problem does it solve, or what would it make possible?
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Optional links, sketches or examples. Only share material you are allowed to share.

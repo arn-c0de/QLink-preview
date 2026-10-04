@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and general discussion
+    url: https://github.com/arn-c0de/QLink-preview/discussions
+    about: Ask questions, share thoughts or talk about the renders in Discussions.
