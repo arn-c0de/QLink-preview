@@ -1,0 +1,28 @@
+#!/bin/sh
+# Reject pushed commits that credit or mention Claude or Codex in Git metadata.
+set -eu
+
+remote_name=$1
+zero_oid=0000000000000000000000000000000000000000
+
+while read -r local_ref local_oid remote_ref remote_oid; do
+    [ -n "$local_ref" ] || continue
+    # Deleting a remote ref sends no commits.
+    [ "$local_oid" = "$zero_oid" ] && continue
+
+    if [ "$remote_oid" = "$zero_oid" ]; then
+        # A new ref sends commits that are not already on this remote.
+        commits=$(git rev-list "$local_oid" --not --remotes="$remote_name") || exit 1
+    else
+        commits=$(git rev-list "$local_oid" "^$remote_oid") || exit 1
+    fi
+
+    for commit in $commits; do
+        metadata=$(git log -1 --format='%an <%ae>%n%cn <%ce>%n%B' "$commit") || exit 1
+        if printf '%s\n' "$metadata" | LC_ALL=C grep -Eiq 'claude|codex'; then
+            printf 'pre-push: rejected %s (%s): commit author, committer, or message mentions Claude or Codex\n' \
+                "$commit" "$local_ref" >&2
+            exit 1
+        fi
+    done
+done
