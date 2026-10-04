@@ -2,6 +2,10 @@
 
 **qlink** is an independent research project that brings wired PC VR to Linux for the Meta Quest 3. The PC renders the whole VR world, including the home, the avatar and its body IK, the applications and the final frames. It streams the result over the USB cable to the stock Quest Link receiver. Nothing is installed on the headset, and no custom Quest app is involved.
 
+- **No Quest Link PC app.** qlink runs on Linux without Meta's Quest Link (Oculus) PC software. The Linux host talks to the stock Link receiver on the headset directly.
+- **The simulation is the Link home.** The current simulation runs directly in the Link home: the headset shows the PC-rendered world in place of the usual Link home. At the same time, the same world can be played in 2D on the PC desktop.
+- **Goal: replace the Link app completely.** A future OpenXR runtime is meant to let Steam and other VR games start through qlink, and return to the home afterwards (see the [roadmap](docs/ROADMAP.md)). This is planned, not available yet.
+
 This repository is a **public preview**. It shows progress through renders, videos and short write-ups. The source code, internal research notes and protocol documentation are not published here.
 
 > Status: experimental research, not a product. It has been tested on one Quest 3 with one PC (RTX 3080, Linux). Not affiliated with or endorsed by Meta.
