@@ -1,4 +1,4 @@
-# qlink — Linux PCVR for Quest 3 (project preview)
+# QLink- Game and Simulation Engine — Linux PCVR for Quest 3 (project preview)
 <br>
 
 ## Videos
