@@ -1,6 +1,13 @@
 # Progress log
 
-The project started on 2026-09-26. The main repository has about 150 commits as of 2026-10-04. Newest entries are at the top.
+The project started on 2026-09-26. Newest entries are at the top. Offline, synthetic and headset results are distinguished below.
+
+## 2026-10-09: Shared simulation cutover and multiplayer groundwork
+
+- Added a fixed-tick entity simulation with rigid-body physics and shared player, NPC and item state. Damage, health, firearms, animation, vehicles and training-course rules are moving from the older home code into it.
+- The desktop console enables the simulation bridge by default. The native Quest Link session still leaves it disabled; the full cutover and headset review are open.
+- Server-authoritative game replication for VR and desktop inputs passes synthetic packet-loss tests and local UDP loopback. There is no validated live multiplayer session or public-network security yet.
+- Car collision, seat and door data, held weapons and wound rendering gained offline simulation-side slices. A persistent contiguous world remains a plan.
 
 ## 2026-10-04: Animation, clothing and materials
 
