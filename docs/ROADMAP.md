@@ -15,6 +15,8 @@ These are planning estimates, not commitments. They assume one developer working
 | M8 | Performance benchmark on documented hardware | 2027-05 | Planned |
 | M9 | Packaging and public beta | ~2027-06 | Planned |
 
+Help is welcome for sound design (ambience, weather, water, footsteps, interface) and for 3D models and textures; see the [contribution notes](../CONTRIBUTING.md).
+
 In parallel, the world track is moving gameplay from the older home code into one shared simulation. The desktop console enables the new path by default; the native headset path still uses the older one. The multiplayer codec and server pass synthetic and loopback checks, while live crossplay remains open.
 
 ```mermaid

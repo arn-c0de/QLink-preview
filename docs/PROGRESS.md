@@ -2,6 +2,17 @@
 
 The project started on 2026-09-26. Newest entries are at the top. Offline, synthetic and headset results are distinguished below.
 
+## 2026-10-19: Aircraft, weather and sound
+
+- First aircraft simulation: a Cessna-class plane, a delta-canard twin-jet fighter and a utility helicopter fly in an airfield world with a clickable cockpit, instrument displays, gear, brakes and crash consequences. Offline and desktop only; no headset check yet.
+- A virtual wind tunnel and fixed flight and crash scenario benches measure every aircraft in every weather and flight phase, so handling changes are compared against a baseline.
+- Dynamic weather from clear sky to thunderstorm, with rain on glazing, wing vapour and first rain, wind and thunder sounds. Sound design is the next open area.
+- Aircraft sun shadows follow the model's shape.
+
+## 2026-10-11: Shoothouse run and weather video
+
+- A cut shoothouse run shows reworked movement, NPCs, a fear system and stamina. Weather with sound and the FLUID wave system were shown in short videos.
+
 ## 2026-10-09: Shared simulation cutover and multiplayer groundwork
 
 - Added a fixed-tick entity simulation with rigid-body physics and shared player, NPC and item state. Damage, health, firearms, animation, vehicles and training-course rules are moving from the older home code into it.

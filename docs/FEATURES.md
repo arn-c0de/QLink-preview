@@ -1,6 +1,6 @@
 # Features
 
-State as of 2026-10-09. Each row says how far the feature is validated:
+State as of 2026-10-19. Each row says how far the feature is validated:
 
 - **Live (1 device):** observed working on one Quest 3 in a bounded session.
 - **Offline:** passes automated PC tests and, for visual features, inspected PC renders; current headset behavior remains unconfirmed.
@@ -30,6 +30,9 @@ State as of 2026-10-09. Each row says how far the feature is validated:
 | Island beach, wet sand and surf that shoals, breaks, foams and runs up the shore | Offline |
 | Underwater reef, kelp, fish, swimming and diving | Offline |
 | Weather: cloud layers, storm cycle, rain and wet ground | Offline |
+| Wind, gusts, shear and thermals that act on aircraft; rain on glazing | Offline |
+| Rain, wind and thunder sound that follows the weather | Offline playback; first simple sounds |
+| Airfield with hangars, bridges, avenues, hedgerows and a river landscape; every standing object is solid | Offline |
 | Palms, plants and grass that bend under hands and bodies | Offline |
 | Race circuit with a drivable car, opening doors and tyre marks | Offline |
 | Shooting range with distance targets, moving targets, pickup supplies and shoot-through props | Offline |
@@ -72,6 +75,8 @@ State as of 2026-10-09. Each row says how far the feature is validated:
 | Injury rendering on CPU and GPU: entry/exit wounds, blood on skin and clothing, ragdolls | Offline |
 | Car driving, seats, opening doors, tyre marks and crash deformation | Offline PC path |
 | Crushed or punctured tyres and bent rims affect rolling | Offline |
+| Aircraft: Cessna-class plane, delta-canard twin-jet fighter, utility helicopter; boarding, cockpit switches, displays, gear, brakes and crashes | Offline desktop path; headset boarding of the fighter is not done |
+| Flight model checked in a virtual wind tunnel and a weather-by-phase scenario bench | Offline; results describe the project's model, not real aircraft |
 | PC sound: engine, tyres, wind, footsteps, shots and handling | Offline playback and Sound Lab reviews; headset audio open |
 
 See [Simulation and health](SIMULATION.md) for details.

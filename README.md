@@ -32,9 +32,10 @@ This repository is a **public preview**. It shows progress through renders, vide
 
 - **Native USB streaming to the stock Link receiver.** On one Quest 3, the Linux host completed the session handshake and started the stock Link runtime. It streamed a PC-rendered world as 4128 × 2208 side-by-side HEVC at 72 Hz while receiving head, controller and optical-hand tracking. One bounded run displayed frames for 120 s.
 - **The PC does all the rendering.** Vulkan is the current default and draws at full headset resolution with in-process HEVC encoding; its current headset appearance and cadence still need a live repeat. A multithreaded CPU renderer remains available as fallback.
-- **Own engine and worlds.** Built-in worlds include an island with shallow-water surf, an underwater reef, weather and grass and palms you can touch. There is also a race circuit with a drivable car and a shooting range with a two-storey, six-room training house.
+- **Own engine and worlds.** Built-in worlds include an airfield, an island with shallow-water surf, an underwater reef, weather and grass and palms you can touch. There is also a race circuit with a drivable car and a shooting range with a two-storey, six-room training house.
 - **Full-body avatars.** Anatomical characters with 49 joints, all ten fingers animated, faces with expressions, clothing layers, and IK driven by head and hand tracking.
 - **Player health simulation.** Projectile paths are traced through body regions and internal organs. Fractures, bleeding, breathing, consciousness, movement, weapon grip and death all follow from the hits.
+- **Aircraft and weather.** Three test aircraft (a Cessna-class light plane, a delta-canard twin-jet fighter and a utility helicopter) fly in an airfield world with dynamic weather: wind, gusts, rain on the glass, wing vapour and a clear-sky-to-thunderstorm cycle with rain, wind and thunder sound. Aircraft use original, unbranded models and invented, plausibly scaled numbers. Offline PC and desktop only.
 - **Physical simulation.** Firearm mechanics, material damage (bullet holes, shoot-through walls, breaking timber, ricochets and fragments), vehicle dynamics and crash deformation, shallow-water surf, foliage contact and ragdolls.
 - **Tooling.** A desktop console and world editor, a character studio, plus Animation Lab, Sound Lab, Crash Lab and a scripted clip maker.
 
@@ -126,4 +127,4 @@ This is a scripted demonstration. It is not a headset capture and does not show 
 
 ---
 
-*Preview updated 2026-10-09.*
+*Preview updated 2026-10-19.*

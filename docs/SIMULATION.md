@@ -45,8 +45,9 @@ This is a game model. It is not a medical or wound-ballistics model.
 - **Surf.** A nonlinear shallow-water simulation shoals swell into breaking bores that flood and drain the beach, leaving foam, spray and drying wet sand.
 - **Underwater.** Reefs with seagrass, rigid corals, kelp that bends around bodies, and fish that flee. Players can swim and dive.
 - **Weather.** Three cloud layers, a storm and clearing cycle, cloud shadows, depth-tested rain and wet ground.
+- **Aircraft.** Three original aircraft share one strip-based aerodynamic model and the authoritative simulation. Wind, gusts, shear and thermals change how they fly. They are tested in a virtual wind tunnel and on a fixed scenario bench across weather and flight phases. Numbers are invented and plausibly scaled, not taken from real aircraft.
 - **Foliage contact.** Palm fronds, each individual leaflet, plants and grass respond to heads, hands and fingertips at measured contact sizes.
 
 ## Sound
 
-Engine, tyre, wind, footstep and firearm sounds play on the PC. Sound Lab catalogs and reviews the designs; some shot and handling sounds are resynthesized from measured recordings. Headset audio is not implemented yet.
+Engine, jet, tyre, wind, rain, thunder, footstep and firearm sounds play on the PC. Sound Lab catalogs and reviews the designs; some shot and handling sounds are resynthesized from measured recordings. Headset audio is not implemented yet.
