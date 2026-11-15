@@ -68,10 +68,12 @@ All images below are unedited offline renders from the project's **Vulkan GPU re
 
 | | |
 | --- | --- |
-| ![Fighter cockpit](media/images/vehicle-fighter-cockpit.jpg) | ![Helicopter with pilot](media/images/vehicle-heli-pilot.jpg) |
-| Delta-canard fighter: seated pilot, hands on stick and throttle | Utility helicopter with its pilot at the airfield |
-| ![Fighter from the left](media/images/vehicle-fighter-seat.jpg) | ![Cessna panel](media/images/vehicle-cessna-panel.jpg) |
-| Fighter cockpit from the left sill | Cessna-class plane: instrument panel with two displays |
+| ![Fighter cockpit](media/images/vehicle-fighter-cockpit.jpg) | ![Fighter from the front](media/images/vehicle-fighter-seat.jpg) |
+| Delta-canard fighter: pilot in flight suit, helmet and oxygen mask, hands on stick and throttle | Fighter cockpit with the canopy open |
+| ![Helicopter cockpit](media/images/vehicle-heli-cockpit.jpg) | ![Helicopter with pilot](media/images/vehicle-heli-pilot.jpg) |
+| Helicopter pilot with modular helmet, night-vision goggles and mask on cyclic and collective | Utility helicopter with its pilot at the airfield |
+| ![Fighter on the apron](media/images/vehicle-fighter-apron.jpg) | ![Cessna panel](media/images/vehicle-cessna-panel.jpg) |
+| Fighter on the apron with its pilot | Cessna-class plane: instrument panel with two displays |
 | ![Car on the circuit](media/images/vehicle-car-track.jpg) | ![Airfield overview](media/images/airfield-overview.jpg) |
 | Drivable hatchback at the circuit's finish line | Airfield with runway, apron and hangars |
 
