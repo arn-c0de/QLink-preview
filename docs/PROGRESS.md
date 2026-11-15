@@ -14,6 +14,7 @@ All items below are offline PC and desktop results. None has been checked in the
 - **NPC awareness and tactics (opt-in).** NPCs can see, hear, raise their alert level, lose morale and pick cover. Squad commands, scripted civilians and a learned squad leader trained by reinforcement learning were added and judged on a tactics bench.
 - **World and weather.** A moonlit night with airfield ground lights, a longer view distance from aircraft, time of day in the weather panel, and rain on the simulated ground that follows the visible weather. Placed cars, aircraft, people and weapons now work in any world through the one shared simulation.
 - **Players and weapons.** Re-modelled pistol and carbine, shouldered carbine with a cheek weld and prone hold, worn garments that can be taken off and put on, smoother walking, and stamina that recovers while seated and drains while swimming fast.
+- **Preview gallery.** Vehicles, outfits and worlds re-rendered on the GPU with the real world, fabric and avatar textures.
 - **Performance.** A live-play bench drives the whole desktop console with a bot. Weapons and the player's own body are drawn as GPU instances, and shadows are computed on a worker thread.
 
 ## 2026-10-19: Aircraft, weather and sound

@@ -62,22 +62,62 @@ The [feature inventory](docs/FEATURES.md) separates offline, live and planned st
 
 ## Gallery
 
-Unless a caption says otherwise, images below come from the project's **Vulkan GPU renderer** (RTX 3080). They are unedited offline renders, not concept art. They show the state when captured; later world materials and the training house have changed. These images do not demonstrate the current headset or multiplayer path.
+All images below are unedited offline renders from the project's **Vulkan GPU renderer** on an RTX 3080, with the real world, fabric and avatar textures. They are not concept art. Unless a caption gives another date, they were rendered on 2026-11-15. They do not show the current headset or multiplayer path.
+
+### Vehicles
+
+| | |
+| --- | --- |
+| ![Fighter cockpit](media/images/vehicle-fighter-cockpit.jpg) | ![Helicopter with pilot](media/images/vehicle-heli-pilot.jpg) |
+| Delta-canard fighter: seated pilot, hands on stick and throttle | Utility helicopter with its pilot at the airfield |
+| ![Fighter from the left](media/images/vehicle-fighter-seat.jpg) | ![Cessna panel](media/images/vehicle-cessna-panel.jpg) |
+| Fighter cockpit from the left sill | Cessna-class plane: instrument panel with two displays |
+| ![Car on the circuit](media/images/vehicle-car-track.jpg) | ![Airfield overview](media/images/airfield-overview.jpg) |
+| Drivable hatchback at the circuit's finish line | Airfield with runway, apron and hangars |
+
+| Fighter | Cessna-class plane | Helicopter | Hatchback |
+| :---: | :---: | :---: | :---: |
+| ![Fighter model](media/images/vehicle-fighter-model.jpg) | ![Cessna model](media/images/vehicle-cessna-model.jpg) | ![Helicopter model](media/images/vehicle-helicopter-model.jpg) | ![Hatchback model](media/images/vehicle-hatchback-model.jpg) |
+
+The bottom row shows the vehicle models in the Asset Lab. All vehicles are original, unbranded models.
+
+### Outfits
+
+| Operator | Civilian | Jet pilot | Helicopter pilot |
+| :---: | :---: | :---: | :---: |
+| ![Operator](media/images/outfit-operator.jpg) | ![Civilian](media/images/outfit-civilian.jpg) | ![Jet pilot](media/images/outfit-jet-pilot.jpg) | ![Helicopter pilot](media/images/outfit-heli-pilot.jpg) |
+| Camouflage uniform, plate carrier, combat helmet | Shirt, jeans and shoes | Flight suit, helmet, oxygen mask and hose, gloves, boots | Modular helmet with night-vision goggles and oxygen mask |
+
+| | |
+| --- | --- |
+| ![Jet pilot helmet](media/images/outfit-jet-pilot-head.jpg) | ![Helicopter pilot helmet](media/images/outfit-heli-pilot-head.jpg) |
+| Jet helmet with visor and oxygen mask | Helicopter helmet with night-vision goggles |
+
+These are the same GPU-skinned anatomical avatar wearing worn garments, standing at the shooting range in its sun and shadows.
 
 ### Island world
 
 | | |
 | --- | --- |
 | ![Island overview](media/images/island-overview.jpg) | ![Palms and grass](media/images/island-palms.jpg) |
-| Overview with simulated surf | Palms, plants and grass that react to touch |
-| ![Beach](media/images/island-beach.jpg) | ![Shallow water](media/images/island-water.jpg) |
-| Beach and wet sand | Refracting shallow water, foam and run-up |
+| Island with sea and surf from above | Palms, plants and grass that react to touch |
+| ![Beach](media/images/island-beach.jpg) | ![Grass and beach](media/images/island-shore-grass.jpg) |
+| Beach, palm shade and shoreline | Grass slope down to the beach |
 
 **Ocean video:** [surf and water motion over 4 s](media/videos/island-ocean.mp4) · [beach view](media/videos/island-beach.mp4)
 
-### Characters
+### Shooting range and race circuit
 
-![Character views](media/images/character-views.jpg)
+| | |
+| --- | --- |
+| ![Range lane](media/images/range-lane.jpg) | ![Range counter](media/images/range-counter.jpg) |
+| Range lanes with distance boards and targets | Shooting counter with pistol and magazines |
+| ![Shoothouse](media/images/range-shoothouse.jpg) | ![Range overview](media/images/range-overview.jpg) |
+| Shoothouse and two-storey training house | The whole range from above |
+| ![Race start line](media/images/race-start-line.jpg) | ![Race hillcrest](media/images/race-hillcrest.jpg) |
+| Race circuit start line | Circuit hillcrest |
+
+### Characters (2026-10-04)
 
 | | |
 | --- | --- |
@@ -93,36 +133,6 @@ Unless a caption says otherwise, images below come from the project's **Vulkan G
 | Walk cycle with foot locking | [walk-cycle.mp4](media/videos/walk-cycle.mp4) |
 
 Clips are rig-independent `.qlanim` files. They are edited in Animation Lab and can be recorded from the wearer's PC-solved pose in VR.
-
-### Shooting range and race circuit
-
-| | |
-| --- | --- |
-| ![Range lane](media/images/range-lane.jpg) | ![Range counter](media/images/range-counter.jpg) |
-| Range lanes with distance boards and targets | Shooting counter with pistol and magazines |
-| ![Shoothouse](media/images/range-shoothouse.jpg) | ![Earlier SWAT course](media/images/swat-course-rooms.jpg) |
-| Shoothouse | Earlier four-room course, since replaced by a two-storey training house |
-| ![Race start line](media/images/race-start-line.jpg) | ![Race hillcrest](media/images/race-hillcrest.jpg) |
-| Race circuit start line | Circuit hillcrest with the drivable car |
-
-### Aircraft and airfield
-
-| | |
-| --- | --- |
-| ![Fighter](media/images/fighter-front34.jpg) | ![Airfield at dusk](media/images/airfield-overview-dusk.jpg) |
-| Delta-canard fighter, Asset Lab review (Vulkan on a software device, 2026-10-21) | Airfield landscape at dusk with lit runway (Vulkan, 2026-10-20) |
-| ![Pilot in flight gear](media/images/fighter-pilot-gear.jpg) | |
-| Seated pilot with helmet, oxygen mask and hose, hands on stick and throttle (offline review, 2026-10-21) | |
-
-These are offline review renders of original, unbranded models. They are not headset captures.
-
-### Scripted scene
-
-[**Scripted range clip (MP4, 5 s)**](media/videos/scripted-range-clip.mp4): a staged scene made with the clip maker and rendered on the GPU. A scripted shot event drives the health system, which produces the hit reaction and the fall.
-
-![Clip frames](media/images/clip-sheet.jpg)
-
-This is a scripted demonstration. It is not a headset capture and does not show autonomous NPC behaviour.
 
 ## Read more
 
