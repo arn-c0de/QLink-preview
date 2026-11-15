@@ -36,6 +36,8 @@ This repository is a **public preview**. It shows progress through renders, vide
 - **Full-body avatars.** Anatomical characters with 49 joints, all ten fingers animated, faces with expressions, clothing layers, and IK driven by head and hand tracking.
 - **Player health simulation.** Projectile paths are traced through body regions and internal organs. Fractures, bleeding, breathing, consciousness, movement, weapon grip and death all follow from the hits.
 - **Aircraft and weather.** Three test aircraft (a Cessna-class light plane, a delta-canard twin-jet fighter and a utility helicopter) fly in an airfield world with dynamic weather: wind, gusts, rain on the glass, wing vapour and a clear-sky-to-thunderstorm cycle with rain, wind and thunder sound. Aircraft use original, unbranded models and invented, plausibly scaled numbers. Offline PC and desktop only.
+- **Aircraft damage and crew.** Aircraft and a car have an internal structure: hits, overload, fires, explosions and crashes break it apart part by part. Pilots wear flight gear with oxygen and night vision, and can black out from altitude or g-force. Offline only.
+- **NPC tactics.** Opt-in NPC sight, hearing, alert levels, morale and cover, squad commands and a squad leader trained by reinforcement learning. Offline only.
 - **Physical simulation.** Firearm mechanics, material damage (bullet holes, shoot-through walls, breaking timber, ricochets and fragments), vehicle dynamics and crash deformation, shallow-water surf, foliage contact and ragdolls.
 - **Tooling.** A desktop console and world editor, a character studio, plus Animation Lab, Sound Lab, Crash Lab and a scripted clip maker.
 
@@ -60,7 +62,7 @@ The [feature inventory](docs/FEATURES.md) separates offline, live and planned st
 
 ## Gallery
 
-All images below come from the project's **Vulkan GPU renderer** (RTX 3080). They are unedited offline renders, not concept art. They show the state when captured; later world materials and the training house have changed. These images do not demonstrate the current headset or multiplayer path.
+Unless a caption says otherwise, images below come from the project's **Vulkan GPU renderer** (RTX 3080). They are unedited offline renders, not concept art. They show the state when captured; later world materials and the training house have changed. These images do not demonstrate the current headset or multiplayer path.
 
 ### Island world
 
@@ -103,6 +105,17 @@ Clips are rig-independent `.qlanim` files. They are edited in Animation Lab and 
 | ![Race start line](media/images/race-start-line.jpg) | ![Race hillcrest](media/images/race-hillcrest.jpg) |
 | Race circuit start line | Circuit hillcrest with the drivable car |
 
+### Aircraft and airfield
+
+| | |
+| --- | --- |
+| ![Fighter](media/images/fighter-front34.jpg) | ![Airfield at dusk](media/images/airfield-overview-dusk.jpg) |
+| Delta-canard fighter, Asset Lab review (Vulkan on a software device, 2026-10-21) | Airfield landscape at dusk with lit runway (Vulkan, 2026-10-20) |
+| ![Pilot in flight gear](media/images/fighter-pilot-gear.jpg) | |
+| Seated pilot with helmet, oxygen mask and hose, hands on stick and throttle (offline review, 2026-10-21) | |
+
+These are offline review renders of original, unbranded models. They are not headset captures.
+
 ### Scripted scene
 
 [**Scripted range clip (MP4, 5 s)**](media/videos/scripted-range-clip.mp4): a staged scene made with the clip maker and rendered on the GPU. A scripted shot event drives the health system, which produces the hit reaction and the fall.
@@ -127,4 +140,4 @@ This is a scripted demonstration. It is not a headset capture and does not show 
 
 ---
 
-*Preview updated 2026-10-19.*
+*Preview updated 2026-11-15.*

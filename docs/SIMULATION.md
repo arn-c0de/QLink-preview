@@ -32,6 +32,14 @@ This is a game model. It is not a medical or wound-ballistics model.
 - **Ricochets and fragments.** Grazing bullets ricochet by material, flatter and slower, with an audible whine. Bullets can break up into fragments that wound.
 - **Debug view.** The desktop console can draw every bullet trace as a line.
 
+## NPC behaviour
+
+NPCs can be given awareness: a sight cone that depends on light, hearing of shots and steps, alert levels, a last-known position for each threat, stress and morale. Armed NPCs choose cover by reasoning about it, fire in bursts and give suppressive fire at the last place they saw an operator. Squads take commands, and civilians follow scripts. A squad leader policy trained by reinforcement learning is judged on a fixed tactics bench before it is accepted. All of this is offline and opt-in; it is a game model, not a claim about real tactics.
+
+## Rockets, guns and ballistics
+
+Unguided rockets fly as 6-DOF bodies with a thrust curve, propellant burn, spin, Mach-dependent aerodynamics and wind, fired from helicopter pods, ground vehicles and jet pods. Helicopters can carry mounted rotary guns with recoil on the carrier. A ballistics simulator checks bullets, shells and bombs against reference projectiles. Each of these has a fixed scenario bench.
+
 ## Vehicles
 
 - **Rigid-body car.** The race car can be driven with tracked hands or the keyboard. It has opening doors and seats for passengers.
@@ -46,6 +54,9 @@ This is a game model. It is not a medical or wound-ballistics model.
 - **Underwater.** Reefs with seagrass, rigid corals, kelp that bends around bodies, and fish that flee. Players can swim and dive.
 - **Weather.** Three cloud layers, a storm and clearing cycle, cloud shadows, depth-tested rain and wet ground.
 - **Aircraft.** Three original aircraft share one strip-based aerodynamic model and the authoritative simulation. Wind, gusts, shear and thermals change how they fly. They are tested in a virtual wind tunnel and on a fixed scenario bench across weather and flight phases. Numbers are invented and plausibly scaled, not taken from real aircraft.
+- **Aircraft structure.** The fighter, the Cessna-class plane, the helicopter and the hatchback carry an internal structure of members, skin panels and systems such as tanks and engines. Rounds pass through it layer by layer and leave entry and exit holes, dents and streaks. Flight loads, overload and fatigue, internal fires and explosions, and crash contact can tear parts away; fragments fly off with jagged edges. Fixed benches measure overload, crash break-up and explosions.
+- **Flight models from the 3D models.** Lift, drag, roll and sideslip are measured from each aircraft's drawn shape, so changing the model changes how it flies.
+- **Crew physiology.** Pilots need oxygen at altitude. Hypoxia and g-force build up into tunnel vision, grey-out and blackout. Helmets have a hinged visor; the helicopter helmet adds night-vision goggles with tube gain and a battery.
 - **Foliage contact.** Palm fronds, each individual leaflet, plants and grass respond to heads, hands and fingertips at measured contact sizes.
 
 ## Sound

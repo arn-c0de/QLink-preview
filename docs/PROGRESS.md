@@ -2,6 +2,20 @@
 
 The project started on 2026-09-26. Newest entries are at the top. Offline, synthetic and headset results are distinguished below.
 
+## 2026-11-15: Aircraft damage, crew gear, NPC tactics and benches
+
+All items below are offline PC and desktop results. None has been checked in the headset yet.
+
+- **Aircraft structure and damage.** The fighter, the Cessna-class plane, the helicopter and the hatchback now have an internal structure with systems. Hits pass through it layer by layer and leave entry and exit holes, dents and streaks. Flight and crash loads, overload, fatigue, internal fires and explosions can break parts away, with fragments and jagged edges. Fixed benches measure overload, crash break-up and explosions.
+- **Flight models measured from the 3D models.** Each aircraft's lift, drag and roll now come from its drawn shape, checked in the wind tunnel and on the flight bench. Every bench run is inside its expected ranges.
+- **Fighter and cockpits.** Smoother fighter model with gear bays, smaller canards, armament stations and loadouts, an HSD navigation page, a clickable oxygen connector and outer-wing airbrakes. The helicopter got clickable engine switches, a height-holding hover mode and position hold. Pilots' hands now rest on the stick, throttle, cyclic and collective.
+- **Crew gear and physiology.** Flight suit, helmet with a hinged visor and an oxygen mask; a modular helicopter helmet with night-vision goggles, face shield and battery. Altitude hypoxia and g-force blackout build up with tunnel vision and grey-out.
+- **Rockets and ballistics.** 6-DOF unguided rockets for the helicopter, ground vehicles and jet pods, a ballistics simulator for bullets, shells and bombs, and mounted rotary guns. Each has its own scenario bench.
+- **NPC awareness and tactics (opt-in).** NPCs can see, hear, raise their alert level, lose morale and pick cover. Squad commands, scripted civilians and a learned squad leader trained by reinforcement learning were added and judged on a tactics bench.
+- **World and weather.** A moonlit night with airfield ground lights, a longer view distance from aircraft, time of day in the weather panel, and rain on the simulated ground that follows the visible weather. Placed cars, aircraft, people and weapons now work in any world through the one shared simulation.
+- **Players and weapons.** Re-modelled pistol and carbine, shouldered carbine with a cheek weld and prone hold, worn garments that can be taken off and put on, smoother walking, and stamina that recovers while seated and drains while swimming fast.
+- **Performance.** A live-play bench drives the whole desktop console with a bot. Weapons and the player's own body are drawn as GPU instances, and shadows are computed on a worker thread.
+
 ## 2026-10-19: Aircraft, weather and sound
 
 - First aircraft simulation: a Cessna-class plane, a delta-canard twin-jet fighter and a utility helicopter fly in an airfield world with a clickable cockpit, instrument displays, gear, brakes and crash consequences. Offline and desktop only; no headset check yet.

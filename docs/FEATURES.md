@@ -1,6 +1,6 @@
 # Features
 
-State as of 2026-10-19. Each row says how far the feature is validated:
+State as of 2026-11-15. Each row says how far the feature is validated:
 
 - **Live (1 device):** observed working on one Quest 3 in a bounded session.
 - **Offline:** passes automated PC tests and, for visual features, inspected PC renders; current headset behavior remains unconfirmed.
@@ -39,7 +39,11 @@ State as of 2026-10-19. Each row says how far the feature is validated:
 | Two-storey, six-room training house with furnished rooms, stairs and fire escape | Offline |
 | Shuffled hostage and armed-suspect encounters, backup gunmen and saved score | Offline |
 | Armed figures return fire around cover, reload, react to hits and drop weapons | Offline |
+| NPC sight, hearing, alert levels, morale and reasoned cover | Offline; opt-in |
+| Squad commands, scripted civilians and a learned squad leader (reinforcement learning) | Offline; judged on a tactics bench |
 | Sun shadows from the player, props and vehicles | Offline |
+| Moonlit night, airfield ground lights and time of day in the weather panel | Offline |
+| Longer view distance from aircraft with thinner haze and far land | Offline |
 | Range and race ground materials, window sun patches and flashlight-lit rooms | Offline PC render reviews; headset review open |
 
 ## Characters
@@ -50,6 +54,8 @@ State as of 2026-10-19. Each row says how far the feature is validated:
 | Full-body IK from head and hand tracking | Live input; appearance still under review |
 | Faces: blinks, gaze, expressions, hit reactions | Offline |
 | Clothing layers with wet and damage appearance | Offline (early proxies) |
+| Taking worn garments off and putting them on from the inventory | Offline desktop path |
+| Pilot flight gear: suit, helmet with hinged visor, oxygen mask and hose; modular helicopter helmet with night-vision goggles and face shield | Offline; headset hand use tested offline only |
 | Garment protection that reduces projectile energy and weakens after hits | Offline |
 | Wound reactions, reachable wound pressure and guarding of unreachable wounds | Offline |
 | First aid with carried bandages for a reachable bleeding body region | Offline desktop path; no VR bandage action or mesh |
@@ -76,7 +82,12 @@ State as of 2026-10-19. Each row says how far the feature is validated:
 | Car driving, seats, opening doors, tyre marks and crash deformation | Offline PC path |
 | Crushed or punctured tyres and bent rims affect rolling | Offline |
 | Aircraft: Cessna-class plane, delta-canard twin-jet fighter, utility helicopter; boarding, cockpit switches, displays, gear, brakes and crashes | Offline desktop path; headset boarding of the fighter is not done |
-| Flight model checked in a virtual wind tunnel and a weather-by-phase scenario bench | Offline; results describe the project's model, not real aircraft |
+| Flight model measured from each aircraft's 3D model, checked in a virtual wind tunnel and a weather-by-phase scenario bench | Offline; results describe the project's model, not real aircraft |
+| Aircraft and car structure: layered hit damage, holes and dents, internal fires and explosions, overload, fatigue and crash break-up | Offline; fighter, Cessna-class plane, helicopter and hatchback |
+| Fighter armament stations and loadouts; helicopter hover and position hold; clickable engine and oxygen controls | Offline desktop path |
+| Altitude hypoxia and g-force blackout with tunnel vision and grey-out | Offline |
+| Night-vision goggles with tube gain and battery | Offline desktop and GPU render path |
+| 6-DOF unguided rockets, mounted rotary guns and a ballistics simulator, each with a scenario bench | Offline |
 | PC sound: engine, tyres, wind, footsteps, shots and handling | Offline playback and Sound Lab reviews; headset audio open |
 
 See [Simulation and health](SIMULATION.md) for details.
@@ -94,4 +105,6 @@ See [Simulation and health](SIMULATION.md) for details.
 | Clip maker | Renders scripted scenes to MP4 from a JSON timeline |
 | Asset Viewer | Browses people, worlds, weapons, accessories, clothing, props and vehicles from the content catalogs |
 | Weapon Lab | Reviews authored weapons, grips and handling clips |
+| Flight Lab | Wind tunnel and flight, crash, overload, damage and rocket scenario benches |
+| Live-play bench | Plays the whole desktop console with a bot and records frame times |
 | Cloth Lab | Reviews garment layers and fit |
