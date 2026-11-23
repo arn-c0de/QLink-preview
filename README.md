@@ -63,7 +63,7 @@ The [feature inventory](docs/FEATURES.md) separates offline, live and planned st
 
 ## Gallery
 
-The gallery shows offline renders from the PC build. Arena and No Man's Land were captured with the Vulkan renderer on 2026-11-23. Biomes was captured with the desktop OpenGL viewport on the same date. The earlier gallery sections use the Vulkan renderer on an RTX 3080 and date to 2026-11-15 unless their captions give another date.
+The gallery shows offline renders from the PC build. Arena and No Man's Land were captured with the Vulkan renderer on 2026-11-23. The four Biomes landscape views use the desktop OpenGL viewport. The rainy trail views use Vulkan. The earlier gallery sections use the Vulkan renderer on an RTX 3080 and date to 2026-11-15 unless their captions give another date.
 
 ### Arena
 
@@ -82,6 +82,12 @@ Trails link open meadow, broadleaf and conifer woods, heath, a river and a marsh
 | ![Aerial view across the Biomes lake and forests](media/images/biomes-overview.jpg) | ![Dirt trail through a flowering meadow](media/images/biomes-meadow-trail.jpg) |
 | **Woodland edge** | **Birch grove** |
 | ![Trail entering dense woodland](media/images/biomes-woodland-trail.jpg) | ![Path beside a grove of white-barked birches](media/images/biomes-birch-grove.jpg) |
+
+After one scripted walk, footprints press into the rain-soaked woodland trail. The two Vulkan views show the same trail from standing height and up close.
+
+| Woodland trail in the rain | Footprints in the mud |
+| --- | --- |
+| ![Rain falling on a muddy woodland trail with puddles and footprints](media/images/biomes-woodland-rain.jpg) | ![Close view of a line of footprints pressed into the wet trail](media/images/biomes-mud-footprints.jpg) |
 
 ### No Man's Land
 
