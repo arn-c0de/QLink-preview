@@ -1,6 +1,6 @@
 # Features
 
-State as of 2026-11-15. Each row says how far the feature is validated:
+State as of 2026-11-23. Each row gives the scope of validation.
 
 - **Live (1 device):** observed working on one Quest 3 in a bounded session.
 - **Offline:** passes automated PC tests and, for visual features, inspected PC renders; current headset behavior remains unconfirmed.
@@ -45,6 +45,9 @@ State as of 2026-11-15. Each row says how far the feature is validated:
 | Moonlit night, airfield ground lights and time of day in the weather panel | Offline |
 | Longer view distance from aircraft with thinner haze and far land | Offline |
 | Range and race ground materials, window sun patches and flashlight-lit rooms | Offline PC render reviews; headset review open |
+| Arena with NPC bouts, swords and shields, armour, unarmed fighting and archery | Offline PC |
+| Biomes with ten named start points, wooded trails, meadow, heath, river and marsh lake | Offline PC and desktop OpenGL captures |
+| No Man's Land with NPC trench squads, capture points, deformable ground and mortar impacts | Offline PC and Vulkan captures |
 
 ## Characters
 
@@ -77,6 +80,8 @@ State as of 2026-11-15. Each row says how far the feature is validated:
 | M4-style carbine: 30-round magazines, safe/semi/auto selector and authored mounts | Offline; live VR handling open |
 | P9 red-dot sight and flashlight with mount and light controls | Offline PC render and interaction tests |
 | Material damage: bullet holes, shoot-through walls, breaking timber, ricochets, fragments | Offline |
+| Melee with simulated weapon contact, guards, parries, stamina and hit reactions | Offline PC |
+| Archery with individual arrows, nocking, drawing and NPC archers | Offline PC |
 | Player health: traced organ hits, fractures, bleeding, breathing, consciousness, grip, death | Offline |
 | Injury rendering on CPU and GPU: entry/exit wounds, blood on skin and clothing, ragdolls | Offline |
 | Car driving, seats, opening doors, tyre marks and crash deformation | Offline PC path |

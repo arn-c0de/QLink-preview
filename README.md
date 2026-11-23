@@ -38,6 +38,7 @@ This repository is a **public preview**. It shows progress through renders, vide
 - **Aircraft and weather.** Three test aircraft (a Cessna-class light plane, a delta-canard twin-jet fighter and a utility helicopter) fly in an airfield world with dynamic weather: wind, gusts, rain on the glass, wing vapour and a clear-sky-to-thunderstorm cycle with rain, wind and thunder sound. Aircraft use original, unbranded models and invented, plausibly scaled numbers. Offline PC and desktop only.
 - **Aircraft damage and crew.** Aircraft and a car have an internal structure: hits, overload, fires, explosions and crashes break it apart part by part. Pilots wear flight gear with oxygen and night vision, and can black out from altitude or g-force. Offline only.
 - **NPC tactics.** Opt-in NPC sight, hearing, alert levels, morale and cover, squad commands and a squad leader trained by reinforcement learning. Offline only.
+- **Three new PC worlds.** Arena stages melee and archery bouts, Biomes connects meadows and woodland with trails, and No Man's Land runs a trench battle with NPC squads and simulated mortar impacts.
 - **Physical simulation.** Firearm mechanics, material damage (bullet holes, shoot-through walls, breaking timber, ricochets and fragments), vehicle dynamics and crash deformation, shallow-water surf, foliage contact and ragdolls.
 - **Tooling.** A desktop console and world editor, a character studio, plus Animation Lab, Sound Lab, Crash Lab and a scripted clip maker.
 
@@ -62,7 +63,33 @@ The [feature inventory](docs/FEATURES.md) separates offline, live and planned st
 
 ## Gallery
 
-All images below are unedited offline renders from the project's **Vulkan GPU renderer** on an RTX 3080, with the real world, fabric and avatar textures. They are not concept art. Unless a caption gives another date, they were rendered on 2026-11-15. They do not show the current headset or multiplayer path.
+The gallery shows offline renders from the PC build. Arena and No Man's Land were captured with the Vulkan renderer on 2026-11-23. Biomes was captured with the desktop OpenGL viewport on the same date. The earlier gallery sections use the Vulkan renderer on an RTX 3080 and date to 2026-11-15 unless their captions give another date.
+
+### Arena
+
+Two NPCs fight a longsword bout driven by the shared simulation. The side camera shows the fighters closing distance and raising their swords.
+
+| Closing distance | High guard |
+| --- | --- |
+| ![Two NPCs facing each other with longswords in the sand arena](media/images/arena-npc-approach.jpg) | ![Two NPCs raising longswords overhead](media/images/arena-npc-overhead-guard.jpg) |
+
+### Biomes
+
+Trails link open meadow, broadleaf and conifer woods, heath, a river and a marsh lake. The map offers ten named starting points.
+
+| Lake and forest overview | Meadow trail |
+| --- | --- |
+| ![Aerial view across the Biomes lake and forests](media/images/biomes-overview.jpg) | ![Dirt trail through a flowering meadow](media/images/biomes-meadow-trail.jpg) |
+| **Woodland edge** | **Birch grove** |
+| ![Trail entering dense woodland](media/images/biomes-woodland-trail.jpg) | ![Path beside a grove of white-barked birches](media/images/biomes-birch-grove.jpg) |
+
+### No Man's Land
+
+One simulated mortar impact seen from 35 m away. The flash gives way to thrown earth and a lingering dust column.
+
+| Flash at 0.10 s | Thrown earth at 0.63 s | Dust at 2.53 s |
+| --- | --- | --- |
+| ![Mortar impact flash across No Man's Land](media/images/no-mans-land-mortar-flash.jpg) | ![Earth thrown up from the same impact](media/images/no-mans-land-mortar-earth.jpg) | ![Dust column over the impact site](media/images/no-mans-land-mortar-dust.jpg) |
 
 ### Vehicles
 

@@ -2,6 +2,13 @@
 
 The project started on 2026-09-26. Newest entries are at the top. Offline, synthetic and headset results are distinguished below.
 
+## 2026-11-23 — Arena, Biomes and No Man's Land
+
+- **Arena.** NPCs can duel and fight in teams. The PC simulation handles sword and shield contact, armour, unarmed strikes and archery, including individual arrows in the quiver.
+- **Biomes.** Ten starting points cover the meadow, woods, heath, river and lake. The world adds a worn trail, forest-floor materials, distance haze, and rain with puddles and drop rings.
+- **No Man's Land.** Two NPC infantry teams fight across trench networks and capture points. Mortar impacts throw dirt and leave craters in the simulated terrain. Optional harassing fire produces impacts during exploration.
+- **PC gallery.** New renders show a longsword duel between NPCs, four views of Biomes, and three stages of the same mortar impact. [View the gallery](../README.md#gallery)
+
 ## 2026-11-15: Aircraft damage, crew gear, NPC tactics and benches
 
 All items below are offline PC and desktop results. None has been checked in the headset yet.
