@@ -26,7 +26,7 @@ This repository is a **public preview**. It shows progress through renders, vide
 >
 > **Ideas and feedback are welcome** through [issues](../../issues/new/choose) and [Discussions](../../discussions). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-![Island home world](media/images/island-shore.jpg)
+![Birches shading a trail in the Biomes world](media/images/biomes-birch-grove.jpg)
 
 ## Highlights
 
@@ -63,7 +63,13 @@ The [feature inventory](docs/FEATURES.md) separates offline, live and planned st
 
 ## Gallery
 
-The gallery shows offline renders from the PC build. Arena and No Man's Land were captured with the Vulkan renderer on 2026-11-23. The four Biomes landscape views use the desktop OpenGL viewport. The rainy trail views use Vulkan. The earlier gallery sections use the Vulkan renderer on an RTX 3080 and date to 2026-11-15 unless their captions give another date.
+The November 28 gallery shows offline PC renders. The four dry Biomes landscapes come from the desktop OpenGL viewport. The rainy trail, Market Crossroads and the other game scenes use Vulkan on an RTX 3080. The Asset Lab renders below show each vehicle in isolation.
+
+### Market Crossroads
+
+| Market square | East watch |
+| --- | --- |
+| ![Timber-framed stalls around the tree in the market square](media/images/market-stalls.jpg) | ![A guard and an intruder outside the eastern hall](media/images/watch-fight.jpg) |
 
 ### Arena
 
@@ -71,7 +77,7 @@ Two NPCs fight a longsword bout driven by the shared simulation. The side camera
 
 | Closing distance | High guard |
 | --- | --- |
-| ![Two NPCs facing each other with longswords in the sand arena](media/images/arena-npc-approach.jpg) | ![Two NPCs raising longswords overhead](media/images/arena-npc-overhead-guard.jpg) |
+| ![Two NPCs facing each other with longswords in the sand arena](media/images/arena-npc-approach.jpg) | ![The fighter in blue raises a longsword above his head](media/images/arena-npc-overhead-guard.jpg) |
 
 ### Biomes
 
@@ -108,7 +114,7 @@ One simulated mortar impact seen from 35 m away. The flash gives way to thrown e
 | ![Fighter on the apron](media/images/vehicle-fighter-apron.jpg) | ![Helicopter stores](media/images/vehicle-heli-stores.jpg) |
 | Fighter on the apron with its pilot | Helicopter stores carrier: seven-tube rocket pod with a six-barrel gun below it |
 | ![Cessna cabin](media/images/vehicle-cessna-cabin.jpg) | ![Cessna panel](media/images/vehicle-cessna-panel.jpg) |
-| Cessna-class plane: seated pilot at the panel | Cessna-class panel with two displays and round gauges |
+| Cessna-class plane: seated pilot at the panel | Powered glass cockpit in the Asset Lab, with the primary flight display above three standby instruments |
 | ![Car on the circuit](media/images/vehicle-car-track.jpg) | ![Airfield overview](media/images/airfield-overview.jpg) |
 | Drivable hatchback at the circuit's finish line | Airfield with runway, apron and hangars |
 
@@ -123,14 +129,14 @@ The bottom row shows the vehicle models in the Asset Lab. All vehicles are origi
 | Operator | Civilian | Jet pilot | Helicopter pilot |
 | :---: | :---: | :---: | :---: |
 | ![Operator](media/images/outfit-operator.jpg) | ![Civilian](media/images/outfit-civilian.jpg) | ![Jet pilot](media/images/outfit-jet-pilot.jpg) | ![Helicopter pilot](media/images/outfit-heli-pilot.jpg) |
-| Camouflage uniform, plate carrier, combat helmet | Shirt, jeans and shoes | Flight suit, helmet, oxygen mask and hose, gloves, boots | Modular helmet with night-vision goggles and oxygen mask |
+| Camouflage uniform, plate carrier, combat helmet | Dark shirt and jeans | Flight suit, helmet and oxygen mask | Modular helmet with night-vision goggles and oxygen mask |
 
 | | |
 | --- | --- |
 | ![Jet pilot helmet](media/images/outfit-jet-pilot-head.jpg) | ![Helicopter pilot helmet](media/images/outfit-heli-pilot-head.jpg) |
 | Jet helmet with visor and oxygen mask | Helicopter helmet with night-vision goggles |
 
-These are the same GPU-skinned anatomical avatar wearing worn garments, standing at the shooting range in its sun and shadows.
+All four outfits are shown on the same GPU-skinned avatar at the shooting range.
 
 ### Island world
 
@@ -154,12 +160,12 @@ These are the same GPU-skinned anatomical avatar wearing worn garments, standing
 | ![Race start line](media/images/race-start-line.jpg) | ![Race hillcrest](media/images/race-hillcrest.jpg) |
 | Race circuit start line | Circuit hillcrest |
 
-### Characters (2026-10-04)
+### Characters
 
 | | |
 | --- | --- |
 | ![Face](media/images/character-face.jpg) | ![GPU-skinned crowd](media/images/gpu-skinned-crowd.jpg) |
-| Anatomical face with eyes, teeth and expression rig | Eight full-detail bodies skinned on the GPU in one frame |
+| Anatomical face with eyes, teeth and expression rig | A grid of 128 GPU-skinned avatars |
 
 ### Animation
 
@@ -187,4 +193,4 @@ Clips are rig-independent `.qlanim` files. They are edited in Animation Lab and 
 
 ---
 
-*Preview updated 2026-11-15.*
+*Preview updated 2026-11-28.*

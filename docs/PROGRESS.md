@@ -2,6 +2,10 @@
 
 The project started on 2026-09-26. Newest entries are at the top. Offline, synthetic and headset results are distinguished below.
 
+## 2026-11-28 — PC render gallery
+
+The gallery now includes the stalls and east watch at Market Crossroads. The Biomes trail views show the updated foliage lighting and ground textures. The aircraft views show the helicopter’s four-blade rotor, the fighter’s revised wing panels and the Cessna’s blue livery. [View the gallery](../README.md#gallery)
+
 ## 2026-11-23 — Arena, Biomes and No Man's Land
 
 - **Arena.** NPCs can duel and fight in teams. The PC simulation handles sword and shield contact, armour, unarmed strikes and archery, including individual arrows in the quiver.
